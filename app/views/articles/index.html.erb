@@ -1,9 +1,10 @@
-<h1>Listing articles</h1>
- 
+<% I18n.locale = :ja%>
+<h1><%=t(:Listing_articles)%></h1>
+<span id="command" type="hidden"></span>
 <table>
   <tr>
-    <th>Title</th>
-    <th>Text</th>
+    <th><%= t(:Title)%></th>
+    <th><%= t(:Text)%></th>
     <th></th>
   </tr>
  
@@ -11,12 +12,12 @@
     <tr>
       <td><%= article.title %></td>
       <td><%= article.text %></td>
-      <td><%= link_to 'Show', article_path(article) %> |</td> 
-      <td><%= link_to 'Edit', edit_article_path(article) %> |</td>
-      <td><%= link_to 'Destroy', article_path(article),
+      <td><%= link_to t(:Show), article_path(article) %> |</td> 
+      <td><%= link_to t(:Edit), edit_article_path(article) %> |</td>
+      <td><%= link_to t(:Destroy), article_path(article),
               method: :delete,
-              data: { confirm: 'Are you sure?' } %></td>
+              data: { confirm: t(:Are_you_sure?) } %></td>
     </tr>
   <% end %>
-  <%= link_to 'New article', new_article_path %>
+  <%= link_to t(:New_article), new_article_path %>
 </table>

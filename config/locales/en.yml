@@ -31,3 +31,10 @@
 
 en:
   hello: "Hello world"
+  Listing_articles: Listing articles
+  New_article: New article
+  Title: Title
+  Text: Text
+  Show: Show
+  Edit: Edit
+  Destroy: Destory
