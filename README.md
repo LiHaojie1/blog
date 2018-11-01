@@ -1,24 +1,6 @@
 # README
+A basic blog program based on RoR including CRUD,second model,validation and refactoring.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Main branch is based on https://guides.rubyonrails.org/getting_started.html
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Other branches is test for new features.
